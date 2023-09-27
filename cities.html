@@ -1,40 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Travel dairies by Sunnith</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-</head>
-<body>
-  <h1>Visit cities with Sunnith Reddy</h1>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-2">K</div>
-      <div class="col-sm-2">O</div>
-      <div class="col-sm-2">N</div>
-      <div class="col-sm-2">D</div>
-      <div class="col-sm-2">A</div>
-      <div class="col-sm-2">M</div>
+  <head>
+    <title>Travel dairies by Sunnith</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="cities.html">A Few More cities</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        ></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="advanced.html">Advanced</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h1>Visit cities with Sunnith Reddy</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">K</div>
+        <div class="col-sm-2">O</div>
+        <div class="col-sm-2">N</div>
+        <div class="col-sm-2">D</div>
+        <div class="col-sm-2">A</div>
+        <div class="col-sm-2">M</div>
+      </div>
+      <div class="row">
+        <div class="col-md">Kyoto</div>
+        <div class="col-md">Oslo</div>
+        <div class="col-md">Nairobi</div>
+        <div class="col-md">Dubai</div>
+        <div class="col-md">Amsterdam</div>
+        <div class="col-md">Marrakesh</div>
+      </div>
     </div>
-    <div class="row">
-      <div class="col-md">Kyoto</div>
-      <div class="col-md">Oslo</div>
-      <div class="col-md">Nairobi</div>
-      <div class="col-md">Dubai</div>
-      <div class="col-md">Amsterdam</div>
-      <div class="col-md">Marrakesh</div>
-    </div>
-  </div>
-  <p>City names or col-md will break first because the threshold for col-md is 768px whereas the threshold for Initials or col-sm is 576px. So col-md will always break sooner than col-sm.<i><b>Pixel information source is bootstrap.</b></i>
+    <p>
+      City names or col-md will break first because the threshold for col-md is
+      768px whereas the threshold for Initials or col-sm is 576px. So col-md
+      will always break sooner than col-sm.<i
+        ><b>Pixel information source is bootstrap.</b></i
+      >
     </p>
 
-
-</body>
+    <div class="img-thumbnail">
+      <div class="img-fluid">
+        <img src="kyoto.jpg" width="400" height="400" class="img-thumbnail" />
+        <img src="oslo.jpg" width="400" height="400" class="img-thumbnail" />
+        <img src="dubai.jpg" width="400" height="400" class="img-thumbnail" />
+      </div>
+    </div>
+    <br />
+    <caption>
+      Table with cities rivers and trees
+    </caption>
+    <table class="table table-bordered table-striped table-hover table-sm">
+      <thead class="table-info">
+        <tr>
+          <th scope="col">Letter</th>
+          <th scope="col">City</th>
+          <th scope="col">River</th>
+          <th scope="col">Tree</th>
+        </tr>
+      </thead>
+      <tr class="table-success">
+        <td>K</td>
+        <td>Kyoto</td>
+        <td>Kakagon River</td>
+        <td>Karum Tree</td>
+      </tr>
+      <tr class="table-danger">
+        <td>O</td>
+        <td>Oslo</td>
+        <td>Obed River</td>
+        <td>Orange tree</td>
+      </tr>
+      <tr class="table-success">
+        <td>N</td>
+        <td>Nairobi</td>
+        <td>Naches River</td>
+        <td>Natal Plum</td>
+      </tr>
+      <tr class="table-danger">
+        <td>D</td>
+        <td>Dubai</td>
+        <td>Doe River</td>
+        <td>Daisy</td>
+      </tr>
+      <tr class="table-success">
+        <td>A</td>
+        <td>Amsterdam</td>
+        <td>Abita River</td>
+        <td>Ashoka Tree</td>
+      </tr>
+      <tr class="table-danger">
+        <td>M</td>
+        <td>Marrakesh</td>
+        <td>Mohawk River</td>
+        <td>Mango Tree</td>
+      </tr>
+    </table>
+    <div class="btn-toolbar">
+      <div
+        class="btn-group"
+        role="group"
+        aria-label="Basic mixed styles example"
+      >
+        <button type="button" class="btn btn-success">K</button>
+        <button type="button" class="btn btn-success">O</button>
+        <button type="button" class="btn btn-success">D</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-warning">N</button>
+        <button type="button" class="btn btn-warning">A</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-danger">M</button>
+      </div>
+    </div>
+    <br />
+    <div class="dropdown">
+      <button
+        type="button"
+        class="btn btn-primary dropdown-toggle"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Dropdown
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="basic.html">basic html</a></li>
+        <li><a class="dropdown-item" href="advanced.html">advanced html</a></li>
+      </ul>
+    </div>
+  </body>
 </html>
